@@ -1,0 +1,84 @@
+
+{"intents": [
+
+        {"tag": "vendor-name",
+         "patterns": ["what is the vendor name for contract#","what is the vendor name for contract number", "what is the supplier name for contract#", 
+         "what is the supplier name for contract number" , "who is the vendor for contract#" ,"who is the vendor for contract number" ,"who is the supplier for contract#",
+		 "who is the supplier for contract#","vendor for contact#","supplier for contact#","supplier for contact number","vendor for contact number","vendor?","supplier?",
+		 "i need to know the vendor/supplier","i want to know the vendor/supplier"],
+         "responses": ["this is about supplier"],
+         "context_set": ""
+        },
+
+        {"tag": "currency-name",
+         "patterns": ["get me the currency of contract number", "get me the currency of contract#", "what is the currency for contract#","currency?",
+         "what is the currency for contract number", "which is the currency for contact#", "which is the currency for contract number", "currency","file",
+         "i want to know the currency","i need to know the currency"],
+         "responses": ["currency name"],
+         "context_set": ""
+        },
+
+        {"tag": "contract-value",
+         "patterns": ["what is the total value of contract", "what is the value of contract", "how much is the contract value" , "contract value of",
+                        "contract total value", "how much is the contract value","value?","contract amount","amount?","i want to know the contract value",
+                        "i need to know contract value"],
+         "responses": ["contract value"],
+         "context_set": ""
+        },
+        
+        {"tag": "contract-type",
+         "patterns": ["what is the type of contract", "what is the category of contract", "what is the commodity of contract" , "contract variety",
+                        "contract type", "what sort of contract ","category?","type?","i want to know the contract type","i need to know contract type"],
+         "responses": ["contract type"],
+         "context_set": ""
+        },
+        
+        {"tag": "contract-language",
+         "patterns": ["what is the language of contract", "what language in contract", "which kind of language" , "what is the type of language",
+                        "contract language", "language used in contract","language?","literature","i want to know contract language","i need to know contract language"],
+         "responses": ["contract language"],
+         "context_set": ""
+        },
+        {"tag": "user-satisfied",
+         "patterns": ["thanks" ,"thank you" ,"ok thanks" ,"ok" ,"ok got it" ,"ok understood" ,"i understand" ,"ok noted" ,"fine" ,"fine thanks",
+                       "oh ok","cool","ok cool","awesome","that's alright","alright"],
+         "responses": ["user-satisfied"],
+         "context_set": ""
+        },
+        {"tag": "user-leaving",
+         "patterns": ["no" ,"no thanks" ,"bye" ,"ok bye" ,"m done" ,"i am done" ,"ok bye" ,"no i am done" ,"no m done" ,"no that's all" ,
+                      "that's ok" ,"that's all","that's alright"],
+         "responses": ["user-leaving"],
+         "context_set": ""
+        },
+        {"tag": "user-greeting",
+         "patterns": ["hi" ,"hello" ,"hey" ,"hi there" ,"hey there" ,"Hi good morning" ,"Hey good morning" ,"Hello good morning" ,"Hi good noon" ,"Hey good noon" ,"Hello good noon",
+                      "Hi good afternoon" ,"Hey good afternoon" ,"Hello good afternoon","Hi good evening" ,"Hey good evening" ,"Hello good evening"],
+         "responses": ["user-greeting"],
+         "context_set": ""
+        },
+        {"tag": "further-information",
+         "patterns": ["yes" ,"yeh" ,"hmm" ,"ofcourse" ,"definitely" ,"yes i need" ,"yeh i need" ,"needed"],
+         "responses": ["further-information"],
+         "context_set": ""
+        },
+        {"tag": "generic-qna",
+         "patterns": ["Why/Who is ChainIQ/Chain IQ?","Chain IQ/ChainIQ Source to Pay","Category Services ChainIQ/Chain IQ","PROCUREMENT/Purchasing/P2P/PO SERVICES CHAINIQ","SmartConnect/ Smart Connect",
+                      "Within the procure-to-pay process, what are examples of key controls that will need to be tested by internal and external auditors?","DUNS Number/Code/","COSIMA check/result/evaluation/criteria/",
+                      "What is a Standard/Generic/Regular Purchase Order/PO","What is a Blanket Purchase Order/PO","What is/Explain/Define/Describe/Draw the P2P process flow","What is a Purchase Requisition/PR?",
+                      "What does Back order mean?","Which are/what are/Name/Enumerate/Define the procurement/P2P/purchasing metrics/key indicators?","What is/How would you describe risk management?","What is/ Define/Describe/a  Request for proposal?RFP",
+                      "What is/Define/Describe/a Request for quotation/RFQ/Letter Quote/LQ/","What is/Define/Describe/a  Request for X/RFx","What is/Define/Describe/a  RFI / Request for information",
+                      "What is/Define/Describe/Supply chain management/SCM","What is/Define/Describe/3 Way Match","What is/Define/Describe/ a Business Process Outsourcing/ BPO","What is/ Define/Describe/ a Business Unit",
+                      "Cash Flow","Category Compliance","What is/ Define/Describe/a Change Order","What is/ Define/Describe/Commodity Buying","What is/Define/Describe/ a Contract","Contract Manager",
+                      "What is/Define/Describe/Customer Relationship Management/CRM","What is/Define/Describe/a Invoice","What is/ Define/Describe/a Master Agreement (MA)","What is/ Define/Describe/a Master Services Agreement (MSA)",
+                      "What is/Define/Describe/P-Cards/Purchase Cards","Payment Terms","What is/ Define/Describe/a Preferred Supplier","What is/Define/Describe/ a Price Agreement","What is/ Define/Describe/a Rate Card",
+                      "What is/Define/Describe/a Reverse Auction","What is/Define/Describe/Source To Pay","What is/Define/Describe/ the Spend Analytics/Analysis","What is/Define/Describe/ a Statement of Work (SOW)",
+                      "What is/Define/Describe/the Strategic Sourcing","What is/ Define/Describe/the Supplier Performance Management /SPM","What is/Define/Describe/ the Supplier Relationship Management/SRM","What is/ Define/Describe/a SWOT Analysis",
+                      "What is/Define/Describe/the Tactical Procurement/Transactional Procurement","What is/Define/Describe/the eSourcing/e-Sourcing","What is/Define/Describe/the General conditions of contract/General terms and conditions"],
+         "responses": ["generic-qna"],
+         "context_set": ""
+        }
+        
+               
+   ]
+}
